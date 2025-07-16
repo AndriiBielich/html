@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    background-color: #FFE2C4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+    width: 100vw;
+}
+
+.item{
+    background-color: #FE0000;
+    width: 100px;
+    height: 100px;
+    transition: all 1s ease-in-out;
+}
+
+.item:hover{
+    border-radius: 50%;
+    background-color: #808080;
+    transition: all 2s ease-in-out;
+}

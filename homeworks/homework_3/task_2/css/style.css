@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica', 'Arial', 'Verdana', sans-serif;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 100px;
+    height: 50vh;
+}
+
+section h2 {
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+section p {
+    text-align: center;
+    line-height: 1.4;
+}
+
+.primary {
+    background-color: #FFC0CB;
+    color: black;
+}
+
+.secondary {
+    background-color: #272727;
+    color: white;
+}

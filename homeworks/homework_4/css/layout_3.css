@@ -1,0 +1,29 @@
+header, footer {
+    height: 22vh;
+    background-color: #D9D9D9;
+}
+
+main {
+    display: flex;
+}
+
+aside {
+    width: 27vw;
+    height: 56vh;
+    background-color: #C0BDBD;
+}
+
+section {
+    width: 46vw;
+    height: 56vh;
+}
+
+.top-content {
+    height: 50%;
+    background-color: #827878;
+}
+
+.bottom-content {
+    height: 50%;
+    background-color: #B7ADAD;
+}

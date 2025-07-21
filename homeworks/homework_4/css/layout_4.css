@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+header, footer {
+    height: 20vh;
+    background-color: #8D8484;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-family: Inter sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+main {
+    display: flex;
+    height: 60vh;
+    color: #FFFFFF;
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+main div {
+    width: 73vw;
+}
+
+.main__section-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #776969;
+    height: 33.3%;
+}
+
+.main__section-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #643030;
+    height: 33.3%;
+}
+
+.main__section-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #441818;
+    height: 33.3%;
+}
+
+aside {
+    height: 60vh;
+    width: 27vw;
+}
+
+.aside__section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    background-color: #937575;
+}
+
+.aside__section-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    background-color: #644C4C;
+}
+
+footer {
+    height: 20vh;
+    background-color: #BDBDBD;
+}

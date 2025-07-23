@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.large {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid #DC143C;
+    border-left: none;
+    animation: rotation-backward 6s ease-in-out infinite alternate;
+}
+
+.medium {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid #FF4D4D;
+    border-right: none;
+    margin: 25px;
+    animation: rotation-forward 5s ease-in-out infinite alternate;
+}
+
+.small {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #FF9999;
+    border-right: none;
+    margin: 25px;
+    animation: rotation-backward 4s ease-in-out infinite alternate;
+}
+
+.extra-small {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #FFE5E5;
+    border-left: none;
+    margin: 25px;
+    animation: rotation-forward 3s ease-in-out infinite alternate;
+}
+
+@keyframes rotation-forward {
+    0% {
+        transform: rotate(-360deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes rotation-backward {
+    0% {
+        transform: rotate(-360deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
